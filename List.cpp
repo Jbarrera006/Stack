@@ -114,7 +114,7 @@ Iterator List::erase(Iterator i) {
 	return i;
 }
 
-Interator List::begin() {
+Iterator List::begin() {
 	return Iterator (head);
 
 }
