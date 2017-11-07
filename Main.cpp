@@ -31,8 +31,6 @@ void Default() {
 	i = a.begin();
 	assert(*i == 3);
 
-	*i += 1;
-	cout << *it << endl;
 }
 
 void test_1() {
@@ -52,7 +50,7 @@ void test_1() {
 
 	i = a.begin();
 	a.insert(i, 0);
-	it = a.begin();
+	i = a.begin();
 
 	assert(*i == 0);
 	++i;
